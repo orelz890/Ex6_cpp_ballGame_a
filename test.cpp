@@ -1,9 +1,9 @@
 // #include "doctest.h"
-#include "Game.hpp"
-#include "Leauge.hpp"
-#include "Schedule.hpp"
-#include "Score.hpp"
-#include "Team.hpp"
+#include "sources/Game.hpp"
+#include "sources/Leauge.hpp"
+#include "sources/Schedule.hpp"
+#include "sources/Score.hpp"
+#include "sources/Team.hpp"
 
 #include <string>
 #include <iostream>
