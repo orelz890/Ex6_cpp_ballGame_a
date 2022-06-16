@@ -1,4 +1,4 @@
-// #include "doctest.h"
+#include "doctest.h"
 #include "sources/Game.hpp"
 #include "sources/Leauge.hpp"
 #include "sources/Schedule.hpp"
@@ -14,7 +14,7 @@
 
 using namespace std;
 
-int main(){
+TEST_CASE("Good tests"){
     cout << "========================================== Start testing ==========================================\n";
 
     /* ==================
@@ -46,5 +46,4 @@ int main(){
     cout << score->longest_losses_in_a_row() << '\n';
     // schedule->print_games_schedule();
 
-    return 0;
 }
